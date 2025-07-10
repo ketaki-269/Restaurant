@@ -11,4 +11,25 @@
     width: 100%;
     height: 70px;
     border:1px solid black;
+    background-color: rgba(255, 228, 196, 0.742);
+
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+}
+
+#topnavbar nav ul {             /* This is nesting css  */
+    display: flex;
+    gap:10px;
+    
+}
+#topnavbar div i {
+    display: flex;
+    gap: 5px;
+}
+
+#topnavbar nav ul li a {
+    text-decoration: none;
+    color: black;
+   
 }
