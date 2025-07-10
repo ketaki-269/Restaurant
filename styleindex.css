@@ -1,0 +1,14 @@
+/* *= its is universal  */
+/* always avoid left to right scroll in webside  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /*  to avoid left to right scroll we use this tag  jo border outside box ate hai ye tog usko inside kerta hai */
+
+}
+
+#topnavbar{
+    width: 100%;
+    height: 70px;
+    border:1px solid black;
+}
