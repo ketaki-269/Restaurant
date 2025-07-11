@@ -32,14 +32,26 @@
 #topnavbar nav ul li a {
     text-decoration: none;
     color: black;
-
-   
 }
+#topnavbar nav ul li a:hover{
+    color: crimson;
+    font-size: 30px;
+}
+
+
 #topnavbar .iconofnav {
     border: 1px solid rgba(0, 0, 0, 0);
     display: flex;
     gap: 20px;
 }
+
+
+#topnavbar .iconofnav:hover{
+     color: crimson;
+    font-size: 30px;
+
+}
+
 
 .con{
     border: 1px;
