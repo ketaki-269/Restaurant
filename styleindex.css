@@ -23,13 +23,27 @@
     gap:10px;
     
 }
-#topnavbar div i {
-    display: flex;
-    gap: 5px;
-}
+
 
 #topnavbar nav ul li a {
     text-decoration: none;
     color: black;
    
+}
+#topnavbardiv {
+    border: 1px solid black;
+    background-color:red;
+    border-radius: 40%;
+
+    display: flex;
+    gap: 10px;
+}
+
+.con{
+    border: 1px;
+    background-color: rgb(209, 111, 124);
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
