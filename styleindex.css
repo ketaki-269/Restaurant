@@ -86,7 +86,8 @@
     border: 1px black solid;
     background-image: url(inside/jamun-tree.jpg);
      display: flex;
-    justify-content: center;
+     flex-direction: column;         /* use to align the things one by one */
+     justify-content: center;
     align-items: center;
     
     /* background: repeat;
@@ -96,10 +97,11 @@
 
 }
 #firstpage h1{
-    /* font-size: 50px;
+    font-size: 50px;
     color: aliceblue;
     font-family:  cursive  ;
-    font-weight: bolder; */
+ 
+    font-weight: bolder;
     
    
    
