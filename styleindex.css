@@ -126,3 +126,11 @@
     display: flex;
     justify-content: center;
 }
+
+
+/* section 2 starts from here  */
+#secondpage card{
+    display: flex;
+  gap: 50px;
+  justify-content: center;
+}
