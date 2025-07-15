@@ -136,50 +136,47 @@ relative
 fix 
 z-index - its is use to set priority of items */
 
+
 .section2 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 60px 10%;
+    flex-wrap: wrap;
     background-color: #f9f9f9;
+    min-height: calc(100vh - 60px);
+    gap: 30px;
 }
 
 .text-content2 {
-    flex: 1 1 45%;
+    flex: 1 1 40%;
+    text-align: center;
 }
 
 .text-content2 h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 22px;
 }
 
-.text-red2 {
-    color: #e64545;
+.textred2 {
     font-style: italic;
+    color: #e64545;
 }
 
 .text-content2 h1 {
-    font-size: 48px;
-    font-weight: 800;
-    margin-bottom: 20px;
+    font-size: 42px;
+    font-weight: 900;
 }
 
 .text-content2 p {
     font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 25px;
+    line-height: 1.5;
     color: #555;
 }
 
 .btn-story {
-    display: inline-block;
-    font-weight: bold;
     text-decoration: none;
+    font-weight: bold;
     color: #000;
     border-bottom: 2px solid #000;
-    padding-bottom: 4px;
-    transition: color 0.3s;
 }
 
 .btn-story:hover {
@@ -187,13 +184,17 @@ z-index - its is use to set priority of items */
     border-color: #e64545;
 }
 
-.image-content {
-    flex: 1 1 45%;
-    text-align: center;
+.image-content2 {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.image-content img {
-    max-width: 90%;
+.image-content2 img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     border-radius: 10px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
