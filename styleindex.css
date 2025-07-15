@@ -135,3 +135,65 @@ absolute
 relative
 fix 
 z-index - its is use to set priority of items */
+
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+    background-color: #f9f9f9;
+}
+
+.text-content2 {
+    flex: 1 1 45%;
+}
+
+.text-content2 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-red2 {
+    color: #e64545;
+    font-style: italic;
+}
+
+.text-content2 h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.text-content2 p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.btn-story {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px;
+    transition: color 0.3s;
+}
+
+.btn-story:hover {
+    color: #e64545;
+    border-color: #e64545;
+}
+
+.image-content {
+    flex: 1 1 45%;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
