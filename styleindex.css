@@ -251,17 +251,6 @@ margin-left: 2%;
     color: #000;
 }
 
-#section4 h1{
-    font-size: 42px;
-    color: #e64545;
-    display: flex;
-    justify-content: center;
-}
-#section4 .gridbox div{
-    width: 250px;
-    height: 250px;
-    border: #000 solid 1px ;
-}
 
 /* 15-7-25 */
 /* display flex sare content ko ek lin me ker deta hai jese width sie bhi change ho jata hai so uske alternat em 
@@ -272,7 +261,7 @@ flexwrap uske ker sakte hai ese width chnage nhi hongi or extra box niche ajaing
   we use 
   display gridbox
   */
-#section4 .gridbox {
+/* /* #section4 .gridbox {
 
     /* display: flex;
     flex-wrap: wrap;
@@ -284,33 +273,42 @@ flexwrap uske ker sakte hai ese width chnage nhi hongi or extra box niche ajaing
     justify-content: center;
     gap: 20px; */
 
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(7,250px);
     gap: 100px;
     flex-wrap: wrap;
-    overflow-x:scroll ;
+    overflow-x:scroll ; 
+scrollbar-width: none;}    */
     /* overflow: hidden;   this property is use to hide the overflow cntent of box */
-    scrollbar-width: none;
+    
 
 
+
+#boxtask{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    
 }
-
-
 
 #boxtask .box1{
     border: #000 1px solid ;
     width: 250px;
     height: 250px;
-     display: grid;
-   
-    justify-content: center;
-}
-#boxtask .box1 .box11{
     display: grid;
     justify-content: center;
+    align-items: center;
+    background-color: #f05c5c;
+}
+#boxtask .box1 .box11{
      border: #000 1px solid ;
     width: 150px;
     height: 150px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
     
 
 }
@@ -319,27 +317,45 @@ flexwrap uske ker sakte hai ese width chnage nhi hongi or extra box niche ajaing
     border: #000 1px solid ;
      width: 250px;
     height: 250px;
-    gap: 10px;
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    background-color: #e8de7d;
 }
 
 #boxtask .box2 .box21{
-     display: grid;
-    justify-content: center;
      border: #000 1px solid ;
     width: 100px;
     height: 200px;
     
 }
 #boxtask .box2 .box22{
-     display:flex;
-    justify-content: center;
      border: #000 1px solid ;
     width: 100px;
     height: 200px;}
 
-    
+
 #boxtask .box3{
     border: #000 1px solid ;
      width: 250px;
     height: 250px;
+    display: grid;
+    align-items: center;
+    gap: 1px;
+    justify-content: center;
+    background-color: #93e68f;
+    
+
+
 }
+
+#boxtask .box3 .box31{
+     border: #000 1px solid ;
+    width: 200px;
+    height: 100px;
+    
+}
+#boxtask .box3 .box32{
+     border: #000 1px solid ;
+    width: 200px;
+    height: 100px;}
