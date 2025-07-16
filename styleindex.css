@@ -287,9 +287,7 @@ scrollbar-width: none;}    */
 #boxtask{
     display: flex;
     justify-content: center;
-    gap: 5px;
-    
-}
+    gap: 5px;}
 
 #boxtask .box1{
     border: #000 1px solid ;
@@ -298,8 +296,7 @@ scrollbar-width: none;}    */
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: #f05c5c;
-}
+    background-color: #f05c5c;}
 #boxtask .box1 .box11{
      border: #000 1px solid ;
     width: 150px;
@@ -308,10 +305,11 @@ scrollbar-width: none;}    */
     justify-content: center;
     align-items: center;
     gap: 100px;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;}
 
-}
+#boxtask .box1 .box11 h3{
+   color: white;
+}    
 
 #boxtask .box2{
     border: #000 1px solid ;
@@ -320,19 +318,16 @@ scrollbar-width: none;}    */
      display: flex;
     justify-content: space-evenly;
     align-items: center; 
-    background-color: #e8de7d;
-}
-
+    background-color: #e8de7d;}
 #boxtask .box2 .box21{
      border: #000 1px solid ;
     width: 100px;
-    height: 200px;
-    
-}
+    height: 200px;}
 #boxtask .box2 .box22{
      border: #000 1px solid ;
     width: 100px;
     height: 200px;}
+
 
 
 #boxtask .box3{
@@ -344,16 +339,12 @@ scrollbar-width: none;}    */
     gap: 1px;
     justify-content: center;
     background-color: #93e68f;
-    
-
-
 }
 
 #boxtask .box3 .box31{
      border: #000 1px solid ;
     width: 200px;
-    height: 100px;
-    
+    height: 100px;  
 }
 #boxtask .box3 .box32{
      border: #000 1px solid ;
