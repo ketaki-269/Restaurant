@@ -214,8 +214,8 @@ margin-left: 2%;
     justify-content: center;
     background-color: #fff;
    gap: 50px;
-   margin-top: 150px;
-   margin-bottom: 150px;
+   margin-top: 20%;
+   margin-bottom: 20%;
 }
 
 .feature-box {
@@ -249,4 +249,97 @@ margin-left: 2%;
     text-decoration: none;
     font-size: 13px;
     color: #000;
+}
+
+#section4 h1{
+    font-size: 42px;
+    color: #e64545;
+    display: flex;
+    justify-content: center;
+}
+#section4 .gridbox div{
+    width: 250px;
+    height: 250px;
+    border: #000 solid 1px ;
+}
+
+/* 15-7-25 */
+/* display flex sare content ko ek lin me ker deta hai jese width sie bhi change ho jata hai so uske alternat em 
+flexwrap uske ker sakte hai ese width chnage nhi hongi or extra box niche ajainge 
+ */   
+ /* display flex me apn apne hisab se fix nhi kersakte hi kitne box ek line me
+  chahahiye isliye
+  we use 
+  display gridbox
+  */
+#section4 .gridbox {
+
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px; */
+
+    /* display: grid;
+    grid-template-columns:  auto auto auto ;
+    justify-content: center;
+    gap: 20px; */
+
+    display: grid;
+    grid-template-columns: repeat(7,250px);
+    gap: 100px;
+    flex-wrap: wrap;
+    overflow-x:scroll ;
+    /* overflow: hidden;   this property is use to hide the overflow cntent of box */
+    scrollbar-width: none;
+
+
+}
+
+
+
+#boxtask .box1{
+    border: #000 1px solid ;
+    width: 250px;
+    height: 250px;
+     display: grid;
+   
+    justify-content: center;
+}
+#boxtask .box1 .box11{
+    display: grid;
+    justify-content: center;
+     border: #000 1px solid ;
+    width: 150px;
+    height: 150px;
+    
+
+}
+
+#boxtask .box2{
+    border: #000 1px solid ;
+     width: 250px;
+    height: 250px;
+    gap: 10px;
+}
+
+#boxtask .box2 .box21{
+     display: grid;
+    justify-content: center;
+     border: #000 1px solid ;
+    width: 100px;
+    height: 200px;
+    
+}
+#boxtask .box2 .box22{
+     display:flex;
+    justify-content: center;
+     border: #000 1px solid ;
+    width: 100px;
+    height: 200px;}
+
+    
+#boxtask .box3{
+    border: #000 1px solid ;
+     width: 250px;
+    height: 250px;
 }
