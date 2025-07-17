@@ -212,7 +212,8 @@ margin-left: 2%;
 
 .image-content2:hover{
  transform:scale(1.1) rotate(45deg);
-     transform: translate(100px,0px);   
+     transform: translate(100px,0px);  
+    
 }
 
 
