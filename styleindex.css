@@ -191,11 +191,15 @@ margin-left: 2%;
     border-color: #e64545;
 }
 
-.image-content2{
+.image-content2 {
     flex: 1 1 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all ease 2s;
+    
+   
+    
 }
 
 .image-content2 img{
@@ -204,6 +208,11 @@ margin-left: 2%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.image-content2:hover{
+ transform:scale(1.1) rotate(45deg);
+     transform: translate(100px,0px);   
 }
 
 
@@ -364,10 +373,18 @@ scrollbar-width: none;}    */
     height: 300px;
     border: #000 solid 1px;
     background-color: violet;
+    /* transition:background-color ease  3s; */
+    /* for slow down all  */
+    transition: all ease 3s;
+    box-shadow: 10px  15px   10px         0px    gray;
+    box-shadow: xaxis,yaxis ,shadow blur, spread,color;
 }
 #page4 div:hover{
     background-color: aqua;
      /* border-radius: 50%;                height width same hone pe ager borderradius 50% se square vircle ban jata hai  */
-     transform:scale(1.2) rotate(45deg);
+     transform:scale(1.1) rotate(45deg);
      transform: translate(100px,0px);
+
+     /* to slowdown the hover properties we use transition property 
+     or ye transition property jispe hover laga hai uder hi likhenge */
 }
