@@ -284,7 +284,7 @@ scrollbar-width: none;}    */
 
 
 /* <!-- this box task is just for practice --> */
-#boxtask{
+/* #boxtask{
     display: flex;
     justify-content: center;
     gap: 5px;}
@@ -349,4 +349,6 @@ scrollbar-width: none;}    */
 #boxtask .box3 .box32{
      border: #000 1px solid ;
     width: 200px;
-    height: 100px;}
+    height: 100px;} */
+
+    
