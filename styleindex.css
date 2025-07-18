@@ -399,6 +399,9 @@ scrollbar-width: none;}    */
       font-weight: 800;
       letter-spacing: 5px;
       margin-top: 5px;
+        display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .discover {
@@ -407,6 +410,9 @@ scrollbar-width: none;}    */
       color: #c60000;
       margin-top: 10px;
       display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     /* Container */
