@@ -389,3 +389,72 @@ scrollbar-width: none;}    */
      /* to slowdown the hover properties we use transition property 
      or ye transition property jispe hover laga hai uder hi likhenge */
 }
+
+
+
+
+/* menu section  */
+ h1 {
+      font-size: 2.5em;
+      font-weight: 800;
+      letter-spacing: 5px;
+      margin-top: 5px;
+    }
+
+    .discover {
+      font-size: 1.3em;
+      font-style: italic;
+      color: #c60000;
+      margin-top: 10px;
+      display: block;
+    }
+
+    /* Container */
+    .menu-section {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .menu-box {
+      position: relative;
+      flex: 1 1 33.33%;
+      height: 220px;
+      overflow: hidden;
+    }
+
+    .menu-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease-in-out;
+    }
+
+    .menu-box:hover img {
+      transform: scale(1.1);
+    }
+
+    .menu-text {
+      position: absolute;
+      bottom: 50%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      background-color: rgba(255, 255, 255, 0.85);
+      font-weight: bold;
+      font-size: 1.1em;
+      text-transform: uppercase;
+      border-radius: 3px;
+      padding: 8px 25px;
+    }
+
+    /* For 2nd Row */
+    .wide {
+      flex: 2 1 66.66%;
+    }
+
+    @media (max-width: 768px) {
+      .menu-box, .wide {
+        flex: 1 1 100%;
+        height: 200px;
+      }
+    }
