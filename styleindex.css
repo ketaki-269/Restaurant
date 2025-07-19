@@ -67,15 +67,7 @@
 }
 
 
-/* .conbutton{
-    border-radius: 20px;
-    background-color: crimson;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;} */
+
     
 /* header or nav bar part close */
 /* jab koi ek cheze kisi ke upper aii matalb vaha possition property lagi hai  */
@@ -262,134 +254,6 @@ margin-left: 2%;
 }
 
 
-/* 15-7-25 */
-/* display flex sare content ko ek lin me ker deta hai jese width sie bhi change ho jata hai so uske alternat em 
-flexwrap uske ker sakte hai ese width chnage nhi hongi or extra box niche ajainge 
- */   
- /* display flex me apn apne hisab se fix nhi kersakte hi kitne box ek line me
-  chahahiye isliye
-  we use 
-  display gridbox
-  */
-/* /* #section4 .gridbox {
-
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px; */
-
-    /* display: grid;
-    grid-template-columns:  auto auto auto ;
-    justify-content: center;
-    gap: 20px; */
-
-    /* display: grid;
-    grid-template-columns: repeat(7,250px);
-    gap: 100px;
-    flex-wrap: wrap;
-    overflow-x:scroll ; 
-scrollbar-width: none;}    */
-    /* overflow: hidden;   this property is use to hide the overflow cntent of box */
-    
-
-
-/* <!-- this box task is just for practice --> */
-/* #boxtask{
-    display: flex;
-    justify-content: center;
-    gap: 5px;}
-
-#boxtask .box1{
-    border: #000 1px solid ;
-    width: 250px;
-    height: 250px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    background-color: #f05c5c;}
-#boxtask .box1 .box11{
-     border: #000 1px solid ;
-    width: 150px;
-    height: 150px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    flex-wrap: wrap;}
-
-#boxtask .box1 .box11 h3{
-   color: white;
-}    
-
-#boxtask .box2{
-    border: #000 1px solid ;
-     width: 250px;
-    height: 250px;
-     display: flex;
-    justify-content: space-evenly;
-    align-items: center; 
-    background-color: #e8de7d;}
-#boxtask .box2 .box21{
-     border: #000 1px solid ;
-    width: 100px;
-    height: 200px;}
-#boxtask .box2 .box22{
-     border: #000 1px solid ;
-    width: 100px;
-    height: 200px;}
-
-
-
-#boxtask .box3{
-    border: #000 1px solid ;
-     width: 250px;
-    height: 250px;
-    display: grid;
-    align-items: center;
-    gap: 1px;
-    justify-content: center;
-    background-color: #93e68f;
-}
-
-#boxtask .box3 .box31{
-     border: #000 1px solid ;
-    width: 200px;
-    height: 100px;  
-}
-#boxtask .box3 .box32{
-     border: #000 1px solid ;
-    width: 200px;
-    height: 100px;} */
-
-#page4{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-#page4 div{
-    width: 300px;
-    height: 300px;
-    border: #000 solid 1px;
-    background-color: violet;
-    /* transition:background-color ease  3s; */
-    /* for slow down all  */
-    transition: all ease 3s;
-    box-shadow: 10px  15px   10px         0px    gray;
-    box-shadow: xaxis,yaxis ,shadow blur, spread,color;
-}
-#page4 div:hover{
-    background-color: aqua;
-     /* border-radius: 50%;                height width same hone pe ager borderradius 50% se square vircle ban jata hai  */
-     transform:scale(1.1) rotate(45deg);
-     transform: translate(100px,0px);
-
-     /* to slowdown the hover properties we use transition property 
-     or ye transition property jispe hover laga hai uder hi likhenge */
-}
-
 
 
 
@@ -420,10 +284,11 @@ scrollbar-width: none;}    */
    height: 300px;
    /* background-image: url(inside/mlunch.png); */
    border-radius: 5%;
+   overflow: hidden;
 }
 .mbox1 div{
-      width: 100%;
-      height: 100%;
+      width: 240px;
+      height: 300px;
       object-fit: cover;
       transition: transform 0.4s ease-in-out;
 }
