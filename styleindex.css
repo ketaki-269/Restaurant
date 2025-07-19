@@ -275,24 +275,26 @@ margin-left: 2%;
       align-items: center;
       justify-content: center;
     }
-#section4 .menuoptions {
+.section4 .menuoptions div {
     border: #000 solid 1px;
-    width: 200px;
+    width: 300px;
     height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
-  #section4 .menuoptions {
+  .section4 .menuoptions {
 
-   display: flex;
+   /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px; 
+    gap: 90px; 
 
      display: grid;
     grid-template-columns:  auto auto auto ;
     justify-content: center;
-    gap: 20px;
+    gap: 90px; */
 
    display: grid;
     grid-template-columns: repeat(7,250px);
@@ -300,3 +302,6 @@ margin-left: 2%;
     flex-wrap: wrap;
     overflow-x:scroll ; 
 scrollbar-width: none;} 
+
+
+
