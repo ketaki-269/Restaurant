@@ -286,7 +286,7 @@ margin-left: 2%;
 
   .section4 .menuoptions {
 
-   /* display: flex;
+   display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 90px; 
@@ -294,7 +294,7 @@ margin-left: 2%;
      display: grid;
     grid-template-columns:  auto auto auto ;
     justify-content: center;
-    gap: 90px; */
+    gap: 90px;
 
    display: grid;
     grid-template-columns: repeat(7,250px);
