@@ -275,3 +275,28 @@ margin-left: 2%;
       align-items: center;
       justify-content: center;
     }
+#section4 .menuoptions {
+    border: #000 solid 1px;
+    width: 200px;
+    height: 300px;
+}
+
+
+  #section4 .menuoptions {
+
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px; 
+
+     display: grid;
+    grid-template-columns:  auto auto auto ;
+    justify-content: center;
+    gap: 20px;
+
+   display: grid;
+    grid-template-columns: repeat(7,250px);
+    gap: 100px;
+    flex-wrap: wrap;
+    overflow-x:scroll ; 
+scrollbar-width: none;} 
