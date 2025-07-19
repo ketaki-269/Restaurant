@@ -254,9 +254,6 @@ margin-left: 2%;
 }
 
 
-
-
-
 /* menu section  */
  h1 {
       font-size: 2.5em;
@@ -278,17 +275,3 @@ margin-left: 2%;
       align-items: center;
       justify-content: center;
     }
-.mbox1{
-   border: #000 solid 1px ;
-   width: 240px;
-   height: 300px;
-   /* background-image: url(inside/mlunch.png); */
-   border-radius: 5%;
-   overflow: hidden;
-}
-.mbox1 div{
-      width: 240px;
-      height: 300px;
-      object-fit: cover;
-      transition: transform 0.4s ease-in-out;
-}
